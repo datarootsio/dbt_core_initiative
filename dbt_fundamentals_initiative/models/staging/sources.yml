@@ -2,11 +2,9 @@ version: 2
 
 sources:
   - name: AdventureWorks
-    database: AdventureWorks 
-    schema: sales_data  
+    database: citus 
+    schema: saleslt  
     tables:
       - name: customer
       - name: salesorderdetail
       - name: salesorderheader
-
-
